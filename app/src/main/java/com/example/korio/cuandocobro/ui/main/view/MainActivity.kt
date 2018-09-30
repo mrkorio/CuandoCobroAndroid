@@ -1,4 +1,4 @@
-package com.example.korio.cuandocobro.ui.main
+package com.example.korio.cuandocobro.ui.main.view
 
 import android.os.Bundle
 import android.support.design.widget.Snackbar
@@ -6,10 +6,11 @@ import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
 import com.example.korio.cuandocobro.R
+import com.example.korio.cuandocobro.ui.base.view.BaseActivity
 
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() , IMainActivity {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
